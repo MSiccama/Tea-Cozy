@@ -66,6 +66,7 @@ nav span {
 }
 
 .tea {
+  height: 700px;
   width: 1000px
   text-align: center;
   padding-top: 70px;
@@ -102,4 +103,42 @@ h2, h3, h4 {
   font-weight: bold;
   text-align: center;
   display: block;
+}
+
+#locations {
+  padding-top: 70px;
+  height: 500px;
+  background-image: url("../background.jpg");
+  width: 1200px;
+}
+
+.venues {
+  display: flex;
+  justify-content: center;
+}
+
+.venue {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 280px;
+  width: 290px;
+  margin: 5px 20px;
+  padding: 10px;
+  background-color: black;
+  opacity: 1;
+}
+
+.venue h4 {
+  font-weight: normal;
+}
+
+.contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+  margin: auto 0;
 }
