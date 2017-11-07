@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -5,4 +10,96 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo {
+  flex-grow: 1;
+  padding-left: 10px;
+  text-align: left;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+a {
+  color: seashell;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+.content {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+  height: 700px;
+  background-image: url("../mission-background.jpg");
+}
+
+.black-banner {
+  background-color: black;
+  width: 100%;
+}
+
+.tea {
+  width: 1000px
+  text-align: center;
+  padding-top: 70px;
+}
+
+#featured-tea {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: block;
+}
+
+.row img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+.block {
+  display: inline-block;
+  padding: 5px;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.row span {
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
 }
